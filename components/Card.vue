@@ -8,7 +8,7 @@
               {{ data.title }}
             </h1>
             <div class="column icons">
-              <a @click="$emit('editShift', data)" >
+              <a aria-disabled="true">
                 <b-icon :icon="'pencil'" />
               </a>
               <a @click="$emit('deleteShift', data)" >
